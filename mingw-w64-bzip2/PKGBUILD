@@ -58,7 +58,8 @@ build() {
     --build=${MINGW_CHOST} \
     --host=${MINGW_CHOST} \
     --target=${MINGW_CHOST} \
-    --enable-shared
+    --enable-shared \
+    --enable-static
 
   make all-dll-shared
 }
